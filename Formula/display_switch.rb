@@ -4,14 +4,14 @@
 class DisplaySwitch < Formula
   desc "Watch for USB device connect/disconnect events and switch display inputs via DDC/CI"
   homepage "https://github.com/matthewpick/display-switch"
-  version "1.5.2"
+  version "1.5.3"
   license "MIT"
 
   depends_on "libusb"
 
   on_macos do
     url "https://github.com/matthewpick/display-switch/releases/download/v#{version}/display_switch-v#{version}-macos-universal.zip"
-    sha256 "70f4b16b76e2e941f9740a5e196f4c021d94a54aff65fe0f8946aad5d65bb394"
+    sha256 "8606a8f031b8e035c0bde408e6c00c871db9453657cf5abed748bade08b4d565"
 
     def install
       bin.install "display_switch"
