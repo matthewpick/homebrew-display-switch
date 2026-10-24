@@ -11,7 +11,7 @@ class DisplaySwitch < Formula
 
   on_macos do
     url "https://github.com/matthewpick/display-switch/releases/download/v#{version}/display_switch-v#{version}-macos-universal.zip"
-    sha256 "SHA256_PENDING"
+    sha256 "f137643f58d3d8ed58bda82656e0f7074958f4b62de5cdb65fc58f086ffcd345"
 
     def install
       bin.install "display_switch"
